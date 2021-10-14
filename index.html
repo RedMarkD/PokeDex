@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Becode training exercise PokéDex builder">
+    <meta name="keywords" content="BeCode, PokéDex, JSON API exercise, JavaScript, CSS, HTML">
+    <meta name="author" content="Reinout De Bleser">
+    <title>Pokédex</title>
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-$END$
+<img id="sprite" src="https://img1.pnghut.com/7/13/17/q07VEEvcKJ/business-deviantart-stock-ball-education.jpg" alt="no image available">
+
+<section class="container">
+    <form action="#">
+        <div class="field">
+            <label for="input"></label>
+            <input type="text" name="name or id" id="input" placeholder="Name or Id"/>
+        </div>
+        <div class="actions">
+            <button type="button" id="search">Search</button>
+        </div>
+    </form>
+</section>
+    <section class="container">
+            <h4 class="title">
+                <strong id="pokeName"></strong>
+                <em id="pokeId"></em>
+            </h4>
+    </section>
+            <section class="moves">
+                <ul>
+                    <li id="move1"></li>
+                    <li id="move2"></li>
+                    <li id="move3"></li>
+                    <li id="move4"></li>
+                </ul>
+            </section>
+    <div id="targetEvo">
+    <img id="spriteDown" src="https://img1.pnghut.com/7/13/17/q07VEEvcKJ/business-deviantart-stock-ball-education.jpg" alt="no image available">
+    <img id="spriteUp" src="https://img1.pnghut.com/7/13/17/q07VEEvcKJ/business-deviantart-stock-ball-education.jpg" alt="no image available">
+    </div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="JS/script.js"></script>
 </body>
 </html>
