@@ -3,6 +3,8 @@
 >We, being our class of BeCode learners were tasked with creating a PokéDex.
 >The goal is to finish this project in 3 days by ourselves and to have a working github pages version. 
 
+## Deployment can be found at:  https://redmarkd.github.io/PokeDex/ 
+
 
 >##The Learning Objectives
 > * A typical AJAX flow: send asynchronous requests to a remote server and process the results;
